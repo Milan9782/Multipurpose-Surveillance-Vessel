@@ -43,7 +43,7 @@ Powered by **ESP32, Arduino, Radar Modules, RF communication**, and a custom **A
 - HTML/CSS/JavaScript (Web UI)
 - ESP32 MicroPython / Arduino C++
 - Python (AI Model + Backend Processing)
-- Node.js or Flask (Optional Backend Interface)
+
 
 ### 🔌 Hardware Components
 - ESP32, Arduino, Atmega328
