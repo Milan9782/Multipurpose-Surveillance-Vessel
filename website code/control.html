@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASB - Control Panel</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- ======= Navigation Bar ======= -->
+    <nav>
+        <div class="nav-left">
+            <img src="https://www.admissionmba.in/wp-content/uploads/2023/04/Delhi-Technical-Campus-logo.jpg.webp" alt="DTC Logo" class="college-logo">
+            <h1>MASB Control Panel</h1>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="control.html" class="active">Control Panel</a></li>
+            <li><a href="#gallery">Project Gallery</a></li>
+            <li><a href="#team">Meet Our Team</a></li>
+        </ul>
+    </nav>
+
+    <!-- ======= Main Control Container ======= -->
+    <main class="container">
+
+        <!-- ======= Control Panel ======= -->
+        <section class="control-panel">
+            <h2>Boat Controls</h2>
+            <div class="buttons">
+                <button onclick="sendCommand('forward')">Forward</button>
+                <button onclick="sendCommand('left')">Left</button>
+                <button onclick="sendCommand('right')">Right</button>
+                <button onclick="sendCommand('stop')">Stop</button>
+            </div>
+            <p>Status: <span id="boatStatus" class="status default">Idle</span></p>
+        </section>
+
+        <!-- ======= Radar Panel ======= -->
+        <section class="radar-panel">
+            <h2>Radar & Threat Detection</h2>
+            <div id="radarData" class="radar">No threats detected</div>
+        </section>
+
+        <!-- ======= Video & AI Detection ======= -->
+        <section class="video-panel">
+            <h2>Live Surveillance</h2>
+            <video id="video" autoplay muted></video>
+            <canvas id="canvas"></canvas>
+            <p id="aiDetection">AI Object Detection: None</p>
+        </section>
+
+    </main>
+
+    <!-- ======= Footer ======= -->
+    <footer>
+        <p>&copy; 2025 Multiple-Application Surveillance Vessel | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
