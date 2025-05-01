@@ -2,6 +2,8 @@ from ultralytics import YOLO
 
 import cv2
 
+## activate venv if needed  process.run dg"venv/Scripts/activate."
+
 # Load model
 model = YOLO('yolov8n.pt')
 
