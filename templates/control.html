@@ -17,9 +17,9 @@
         </div>
         <ul>
             <li><a href="{{ url_for('static', filename='index.html') }}">Home</a></li>
-            <li><a href="control.html" class="active">Control Panel</a></li>
-            <li><a href="{{ url_for('static', filename='index.html') }}#gallery">Project Gallery</a></li>
-            <li><a href="{{ url_for('static', filename='index.html') }}#team">Meet Our Team</a></li>
+            <li><a href="{{ url_for('control_page') }}" class="active">Control Panel</a></li>
+            <li><a href="{{ url_for('static', filename='images') }}">Project Gallery</a></li>
+            <li><a href="{{ url_for('static', filename='#team') }}">Meet Our Team</a></li>
         </ul>
     </nav>
 
@@ -28,7 +28,7 @@
 
         <!-- ======= Control Panel ======= -->
         <section class="control-panel">
-            <h2>Boat Controls</h2>
+            <h2>Vessel Controls</h2>
             <div class="buttons">
                 <button onclick="sendCommand('forward')">Forward</button>
                 <button onclick="sendCommand('left')">Left</button>
@@ -47,7 +47,7 @@
         <!-- ======= Video & AI Detection ======= -->
         <section class="video-panel">
             <h2>Live Surveillance</h2>
-            <img id="video" src="/video_feed" width="640" height="480" />
+            <img id="video" src="{{ url_for('video_feed') }}" width="640" height="480" />
             <canvas id="canvas" style="display: none;"></canvas>
             <p id="aiDetection">AI Object Detection: Loading...</p>
         </section>
