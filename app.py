@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import cv2
 
 app = Flask(__name__)
-
+# venv/Scripts/activate
 # Load YOLO model (ensure yolov8n.pt is in the working directory)
 model = YOLO('yolov8n.pt')
 
