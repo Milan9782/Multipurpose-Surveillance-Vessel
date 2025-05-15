@@ -1,14 +1,12 @@
 # Surveillance-Vessel
 
-# 🚢 AI-Powered Multiple-Application Surveillance Boat (MASB)
+# 🚢 Multiple-Purpose Surveillance Vessel (MPSV)
 
 An intelligent, multi-role unmanned surface vessel built for maritime **security, surveillance, and rescue operations**, featuring an **AI-guided missile system**, **real-time web-based control**, and **autonomous threat detection**.
 
----
-
 ## 📌 Project Overview
 
-The **Multiple-Application Surveillance Boat (MASB)** is an AI-enhanced autonomous vessel designed to handle multiple maritime tasks such as:
+The **Multiple-Purpose Surveillance Vessel (MPSV)** is an AI-enhanced autonomous vessel designed to handle multiple maritime tasks such as:
 
 - 🔍 Surveillance & Reconnaissance  
 - ⚔️ Target Detection & Missile Launch  
