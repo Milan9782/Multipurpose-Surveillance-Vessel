@@ -16,7 +16,6 @@ The **Multiple-Application Surveillance Boat (MASB)** is an AI-enhanced autonomo
 
 Powered by **ESP32, Arduino, Radar Modules, RF communication**, and a custom **AI model**, the MASB integrates embedded systems and web technologies to deliver precision, autonomy, and safety at sea.
 
----
 
 ## 🧠 Key Features
 
@@ -35,7 +34,7 @@ Powered by **ESP32, Arduino, Radar Modules, RF communication**, and a custom **A
 - 🚁 **Search & Rescue Ready**  
   DC pump, buzzer, and emergency modules for humanitarian missions.
 
----
+
 
 ## 🛠️ Tech Stack & Hardware
 
@@ -53,7 +52,6 @@ Powered by **ESP32, Arduino, Radar Modules, RF communication**, and a custom **A
 - Power Supply, PCB, Resistors, Capacitors, LEDs, Switches
 - Acrylic Body, Connectors, Display Unit
 
----
 
 ## 📂 Project Structure
 
@@ -61,6 +59,9 @@ Powered by **ESP32, Arduino, Radar Modules, RF communication**, and a custom **A
 - Solar charging & energy optimization
 - AI-based path planning & swarm coordination
 - Advanced sonar mapping and underwater drones
+
+## Video
+https://github.com/Aditya00-7/Surveillance-Vessel/blob/main/project%20video%20final.mp4
 
 ## ⚠️ Disclaimer
 This project is for educational and research purposes. The AI-guided weapon system is a conceptual prototype and should not be deployed for real-world combat applications without appropriate legal and ethical considerations.
