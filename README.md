@@ -59,8 +59,7 @@ Powered by **ESP32, Arduino, Radar Modules, RF communication**, and a custom **A
 - Advanced sonar mapping and underwater drones
 
 ## Video
-https://github.com/Aditya00-7/Surveillance-Vessel/blob/main/project%20video%20final.mp4
-
+https://drive.google.com/file/d/18GZOgIJ_O3-8i4FwdPbkEDaJWVTs26Z5/view?usp=sharing
 ## ⚠️ Disclaimer
 This project is for educational and research purposes. The AI-guided weapon system is a conceptual prototype and should not be deployed for real-world combat applications without appropriate legal and ethical considerations.
 
